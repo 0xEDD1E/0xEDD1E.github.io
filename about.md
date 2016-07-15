@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello, I'm 0xEDD1E. I'm a programming enthusiast. Currently I'm learning programming. I think writing a blog and sharing my projects will help me to practice programming. So I write blogs to share my programming works, however they may be not very good codes. So please be kind to give me your suggestions about my works. I always appreciate it. :grin:  
+Hello, I'm 0xEDD1E. I'm a programming enthusiast. Currently I'm learning programming. I think writing a blog and sharing my projects will help me to practice programming. So I write blogs to share my programming works, however they may be not very good codes. So please be kind to give me your suggestions about my works. I always appreciate it. :)  
 You can find me at {% include icon-github.html username="0xedd1e" %}
 
 Blog theme : *jekyll-new*  
