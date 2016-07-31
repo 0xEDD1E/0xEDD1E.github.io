@@ -8,12 +8,15 @@ author: "0xEDD1E"
 ### HTML Encoder
 
 ##### Description
+
 This is a simple js-regex based HTML Encoder. This encoder is capable of encoding almost all characters defined in `HTML4 DTDs`. As found on [wikipedia](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references). 
 
 ##### Implemetation
+
 `htmlenc.js` is the main javascript which contains the encoder. Internally the encoder function uses an array of available characters with their HTML character references (name, unicode hex, unicode decimal). At the time of encoding, encoder just replace all the (encodable) characters with their HTML character references.
 
 #### Source Code
+
 Here is the `htmlenc.js`  
 
 ```javascript
