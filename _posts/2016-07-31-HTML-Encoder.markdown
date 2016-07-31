@@ -5,8 +5,6 @@ date: 2016-07-31
 author: "0xEDD1E"
 ---
 
-### HTML Encoder
-
 ##### Description
 
 This is a simple js-regex based HTML Encoder. This encoder is capable of encoding almost all characters defined in `HTML4 DTDs`. As found on [wikipedia](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references). 
