@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-10T20:25:01+05:30</updated><id>http://localhost:4000//</id><title type="html">KodeBlog V2.0</title><subtitle>A blog about computers, programming, etc...</subtitle><entry><title type="html">Linux සඳහා හැඳින්වීමක්…</title><link href="http://localhost:4000/2017/01/05/linux-introduction.html" rel="alternate" type="text/html" title="Linux සඳහා හැඳින්වීමක්..." /><published>2017-01-05T15:34:00+05:30</published><updated>2017-01-05T15:34:00+05:30</updated><id>http://localhost:4000/2017/01/05/linux-introduction</id><content type="html" xml:base="http://localhost:4000/2017/01/05/linux-introduction.html">&lt;p&gt;&lt;strong&gt;Linux&lt;/strong&gt; කියන්නෙ මෙහෙයුම් පද්ධති කර්නලයක්(kernel). මුලින්ම Intel x86 processors සඳහා ලියැවුණු linux කර්නලය අද වෙනකොට වෙනත් පරිගණක වේදිකා(platforms) විශාල සංඛ්‍යාවක පාවිච්චි කරන්න පුළුවන් කම තියෙනවා. Linux මේ තරම් සාර්ථක වෙන්නට ප්‍රධානම හේතුව තමයි මේ සම්පූර්ණ ව්‍යාපෘතියම &lt;strong&gt;Free&lt;/strong&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, &lt;strong&gt;Open Source&lt;/strong&gt;&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; එකක් වීම.&lt;/p&gt;
+
+&lt;h1 id=&quot;linux-හි-ඉතිහාසය&quot;&gt;Linux හි ඉතිහාසය&lt;/h1&gt;
+
+&lt;p&gt;Linux හි ආරම්භය වෙන්නෙ, 1991 දි පින්ලන්තයේ, හෙල්සින්කි විශ්වවිද්‍යාලයේ සිසුවෙක් වුණු &lt;strong&gt;Linus Torvalds&lt;/strong&gt; තමන්ගෙ ව්‍යාපෘතියක් විදිහට ඔහුගේම කියා කර්නලයක් ලිවීමට පටන් ගැනීමයි. මේ විදිහට ආරම්භ වුණු කර්නලය තමයි කෙටි කාලයක් ඇතුලත ප්‍රයෝජනවත් කර්නලයක් බවට පත්වෙලා පස්සෙ &lt;strong&gt;Linux kernel&lt;/strong&gt; එක කියලා නම් කෙරෙන්නෙ.&lt;/p&gt;
+
+&lt;p&gt;1992 දි, Linus තමන්ගේ linux කර්නලය &lt;strong&gt;GNU&lt;/strong&gt;&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;strong&gt;General Public License(GPL)&lt;/strong&gt; යටතෙ බෙදාහරින්න තීරණය කිරීම නිසා ඕනෙම කෙනෙක්ට මේ කර්නලය අධ්‍යනය කරන්නට, වැඩි දියුණු කරන්නට, බෙදා හරින්නට පුළුවන් කම ලැබුණා. මේ නිසා ලෝකෙ පුරා ඉන්න ගොඩක් developers ලා Linux කර්නලය දියුණු කරන්නට, අලුත් දේවල් එකතු කරන්නට පටන් ගත්තා.&lt;/p&gt;
+
+&lt;p&gt;Linux කර්නලයත්, GNU ව්‍යාපෘතිය යටතෙ සංවර්ධනය කෙරුණු අනෙක් මෘදුකාංගත් එකතු කරලා තමයි Linux distributions නිර්මාණය වන්නට පටන් ගත්තෙ. අද අපි පාවිච්චි කරන Ubuntu, Fedora, Trisquel වගේ මෙහෙයුම් පද්ධති මේ වගේ linux distribution වලට උදාහරණ.&lt;/p&gt;
+
+&lt;p&gt;මේ විදිහට නිර්මාණය වුණු linux distributions, open source ව්‍යාපාරයේ ප්‍රධාන ගාමක බලය බවට පත්වුණා. ඒ වගේම IBM, Oracle වැනි සමාගම් linux සඳහා සහය දැක්වීමට තීරණය කිරීමත්, linux පාදක කරගෙන විශාල ව්‍යාපෘති ආරම්භ කිරීමත් නිසා linux අද වනවිට පෞද්ගලික පරිගණක (personal computers) හැරුණු විට අනෙක් සියලුම පරිගණක පරිසර&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; වල පාවිච්චි වෙන ප්‍රධාන මෙහෙයුම් පද්ධතිය බවට පත්වෙලා තියෙනවා&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;. පෞද්ගලික පරිගණක සම්බන්ධයෙන් වුනත් Linux අසාර්ථක වීමක් නෑ, ඒත් තවමත් බොහෝ දෙනා Windows පාවිච්චි කරන නිසා Linux දෙවැනි තැනට (හෝ තුන්වැනි තැනට) පත්වෙලා තියෙනවා.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;නිදහස්. “නොමිලේ දෙන” අදහසින් නොවෙයි. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;විවෘත කේත. ඕනෑම කෙනෙක්ට කේතය අධ්‍යනය කිරීමට අවසර ඇති. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Richard Stallman ආරම්භ කරපු GNU’s Not UNIX ව්‍යාපෘතිය. මේ ව්‍යාපෘතිය නිදහස් මෘදුකාංග සඳහා අනුග්‍රහය දක්වන ප්‍රධානම ව්‍යාපෘතිය වෙනවා. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;servers, super computers, smart phones, … &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Market_share_by_category&quot;&gt;https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Market_share_by_category&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><summary type="html">Linux හි ඉතිහාසය, ඊට පාදක වුනු සංකල්ප ආදිය පිළිබඳ කෙටි හැඳින්වීමක්</summary></entry></feed>
