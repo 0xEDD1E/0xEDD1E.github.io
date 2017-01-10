@@ -1,0 +1,27 @@
+# General
+title: KodeBlog V2.0
+email: codemaster.eddie@gmail.com
+description: A blog about computers, programming, etc...
+baseurl: ""
+url: "0xedd1e.github.io"
+github_username:  "0xedd1e"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard-wrap: false
+highlighter: rouge
+
+# Sass
+sass:
+  style: compressed
+  sass_dir: _sass
+
+#gems:
+  #- jekyll-feed
+
+# Files
+exclude:
+  - Gemfile
+  - Gemfile.lock
