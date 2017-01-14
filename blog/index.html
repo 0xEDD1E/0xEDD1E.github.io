@@ -1,26 +1,56 @@
----
-layout: default
----
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<div class="header">
-    <h1>{{ site.title }}</h1>
+	
+		<title>KodeBlog V2.0</title>
+	
+
+	<meta name="Description" content="yet another personal blog :)" />
+
+	<link rel="icon" href="/assets/favicon.ico" />
+	<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,700|Inconsolata" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<!-- start: header navigation -->
+
+	<!-- end: header navigation -->
+
+	<!-- start: blog content -->
+	<div class="body-wrapper">
+		<div class="header">
+    <h1>KodeBlog V2.0</h1>
     <ul>
-        {% for item in site.data.navigation %}
+        
         <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
+            <a href="https://github.com/0xEDD1E">github</a>
         </li>
-        {% endfor %}
+        
+        <li>
+            <a href="http://www.synkoda.com/user-5.html">synkoda</a>
+        </li>
+        
     </ul>
 </div>
 <div class="blog">
     <h1>බ්ලොග් ලිපි:</h1>
     <ul>
-        {% for post in site.posts %}
+        
         <li>
-            <a href="{{ post.url }}">{{ post.title }}</a> <span class="date">[{{ post.date | date: '%Y %b %d' }}]</span><br/>
-						<div class="tag-line">{{ post.excerpt }}</span>
+            <a href="/2017/01/05/linux-introduction.html">Linux සඳහා හැඳින්වීමක්...</a> <span class="date">[2017 Jan 05]</span><br/>
+						<div class="tag-line">Linux හි ඉතිහාසය, ඊට පාදක වුනු සංකල්ප ආදිය පිළිබඳ කෙටි හැඳින්වීමක්</span>
         </li>
-        {% endfor %}
+        
     </ul>
 </div>
 
+
+	</div>
+</body>
+</html>
