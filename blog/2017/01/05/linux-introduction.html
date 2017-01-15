@@ -60,12 +60,17 @@
 <h3 id="ධූරාවලික-ගොනු-පද්ධතිය">ධූරාවලික ගොනු පද්ධතිය</h3>
 <p>UNIX හි සියලුම ගොනු ගබඩා කෙරෙන්නෙ එක් ප්‍රධාන ඩිරෙක්ටරියකින්<sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup> ආරම්භ වන උප ඩිරෙක්ටරි යටතේය. රූපයක් ඇසුරින් දැක්වුවහොත් පහත පරිදිය,</p>
 
-<p>මෙම ධූරාවලිය ඇරඹෙන්නෙ <code class="highlighter-rouge">root</code> නැතිනම් <code class="highlighter-rouge">/</code> ලෙස හැඳින්වෙන ප්‍රධාන ඩිරෙක්ටරියෙන්ය. ඉන්පසු ඇති, <code class="highlighter-rouge">/usr</code>, <code class="highlighter-rouge">/boot</code>, <code class="highlighter-rouge">/bin</code>, <code class="highlighter-rouge">/dev</code>, වැනි ඩිරෙක්ටරි වෙන්වන්නෙ මෙහෙයුම් පද්ධතියට හෝ කර්නලයට විශේෂ වන ගොනු සඳහාය.
+<p>මෙම ධූරාවලිය ඇරඹෙන්නෙ <code class="highlighter-rouge">root</code> නැතිනම් <code class="highlighter-rouge">/</code> ලෙස හැඳින්වෙන ප්‍රධාන ඩිරෙක්ටරියෙන්ය. ඉන්පසු ඇති, <code class="highlighter-rouge">/usr</code>, <code class="highlighter-rouge">/boot</code>, <code class="highlighter-rouge">/bin</code>, <code class="highlighter-rouge">/dev</code>, … වැනි ඩිරෙක්ටරි වෙන්වන්නෙ මෙහෙයුම් පද්ධතියට හෝ කර්නලයට විශේෂ වන ගොනු සඳහාය.
 මෙහෙයුම් පද්ධතියේ පරිශීලකයන්ගේ ගොනු ඇතුලත් වන්නේ <code class="highlighter-rouge">/home</code> ඩිරෙක්ටරිය තුල අදාල පරිශීලකයාගේ නමින් ඇති ඩිරෙක්ටරියක් තුලය.</p>
 
 <p><img src="https://0xedd1e.github.io/blog/assets/pics/20170105_FSH.jpg" alt="Linux ගොනු පෙළගැස්ම" title="image from: LFS101x @ Edx" /></p>
 
-<p>මේ අනුව Linux යනු, UNIX හි කේත මත පදනම් වනවා වෙනුවට UNIX සංකල්ප මත පදනම් වූ කර්නලයකි.</p>
+<h3 id="inputoutput-redirection">Input/Output Redirection</h3>
+<p>UNIX හි තිබුණු තවත් විශේෂ පහසුකමක් ලෙස මෙය හඳුන්වන්නට පුළුවන්. command line එක තුලදි යම් වැඩසටහනක ප්‍රතිදානය හෝ ප්‍රතිදානය, පිළිවෙලින් <code class="highlighter-rouge">&gt;</code> හෝ <code class="highlighter-rouge">&lt;</code> ලකුණු මගින් හැසිරවීමට මින් අවස්ථාව ලැබිණි. පසු කලකදි එක් වුණු “pipe” සංකල්පය නිසා <code class="highlighter-rouge">|</code> ලකුණ උපයෝගි කරගෙන එක් වැඩසටහනක ප්‍රතිදානය තවත් වැඩසටහනක ආදානයක් ලෙස භාවිතා කිරීමට හැකිවිය. සරල ලෙස හැඟුණත් මේ විශේෂාංග නිසා බොහෝ දේ පහසුවෙන් කළ හැකි විය. උදාහරණයක් ලෙස යම් ඩිරෙක්ටරියක් තුල ඇති විශාලතම ගොනු 5 මොනවාද යැයි බලාගැනීමට අවශ්‍යනම් පහත විධානය භාවිතා කල හැකියි. මෙහිදී පලමුව <code class="highlighter-rouge">du</code> වැඩසටහන ඩිරෙක්ටරිය තුල ඇති ගොනු වල ප්‍රමාණ පෙළින් පෙලට දක්වයි, දෙවනුව <code class="highlighter-rouge">sort</code> වැඩසටහන ඒවා අවරෝහණ පිළිවෙලට පෙළ ගස්වයි, ඉන්පසු <code class="highlighter-rouge">head</code> වැඩසටහන එම පේළි අතරින් පළමු පේළි පහ පමණක් දක්වයි.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>du -Sh | sort -rh | head -n5
+</code></pre>
+</div>
 
 <div class="footnotes">
   <ol>
