@@ -81,7 +81,7 @@ ul {
         padding: 10px 0 10px 0; } }
 
 .body-wrapper {
-  max-width: 800px;
+  max-width: 700px;
   margin: auto;
   padding: 60px 30px 60px 30px; }
   @media screen and (max-width: 600px) {
