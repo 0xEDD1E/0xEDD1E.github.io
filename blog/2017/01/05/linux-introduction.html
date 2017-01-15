@@ -51,13 +51,52 @@
 
 <p>මේ විදිහට නිර්මාණය වුණු linux distributions, open source ව්‍යාපාරයේ ප්‍රධාන ගාමක බලය බවට පත්වුණා. ඒ වගේම IBM, Oracle වැනි සමාගම් linux සඳහා සහය දැක්වීමට තීරණය කිරීමත්, linux පාදක කරගෙන විශාල ව්‍යාපෘති ආරම්භ කිරීමත් නිසා linux අද වනවිට පෞද්ගලික පරිගණක (personal computers) හැරුණු විට අනෙක් සියලුම පරිගණක පරිසර<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup> වල පාවිච්චි වෙන ප්‍රධාන මෙහෙයුම් පද්ධතිය බවට පත්වෙලා තියෙනවා<sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup>. පෞද්ගලික පරිගණක සම්බන්ධයෙන් වුනත් Linux අසාර්ථක වීමක් නෑ, ඒත් තවමත් බොහෝ දෙනා Windows පාවිච්චි කරන නිසා Linux දෙවැනි තැනට (හෝ තුන්වැනි තැනට) පත්වෙලා තියෙනවා.</p>
 
+<h1 id="unix-සහ-linux">UNIX සහ Linux</h1>
+
+<p>Linux, නිර්මාණය වෙන්නෙ UNIX මෙහෙයුම් පද්ධතිය පාදක කරගෙන. ඇත්තටම Linux නිර්මාණය වෙන්නෙ නිදහස්, විවෘත කේත UNIX මෙහෙයුම් පද්ධතියක අවශ්‍යතාව වෙනුවෙන්. UNIX මත පාදක වුණත් Linux හි කේත සටහන් UNIX වලින් ලබා ගත් ඒවා නොවේ. Linux සහ UNIX අතර ඇති සම්බන්ධය ඒවායේ ක්‍රියාකාරීත්වයයි. Linux යනු කර්නලයක් වීමත්, UNIX යනු සම්පූර්ණ මෙහෙයුම් පද්ධතියක් වීමත්, Linux හා UNIX අතර ඇති ප්‍රධානම වෙනසයි.</p>
+
+<p>UNIX මෙහෙයුම් පද්ධතිය නිර්මාණය කිරීමේදී එහි නිර්මාපකයන් වැදගත් සංකල්ප කිහිපයක් මත පදනම් වුණා. ඒවායින් කිහිපයක් නම්,</p>
+
+<h3 id="ධූරාවලික-ගොනු-පද්ධතිය">ධූරාවලික ගොනු පද්ධතිය</h3>
+<p>UNIX හි සියලුම ගොනු ගබඩා කෙරෙන්නෙ එක් ප්‍රධාන ඩිරෙක්ටරියකින්<sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup> ආරම්භ වන උප ඩිරෙක්ටරි යටතේය. රූපයක් ඇසුරින් දැක්වුවහොත් පහත පරිදිය,</p>
+
+<p>මෙම ධූරාවලිය ඇරඹෙන්නෙ <code class="highlighter-rouge">root</code> නැතිනම් <code class="highlighter-rouge">/</code> ලෙස හැඳින්වෙන ප්‍රධාන ඩිරෙක්ටරියෙන්ය. ඉන්පසු ඇති, <code class="highlighter-rouge">/usr</code>, <code class="highlighter-rouge">/boot</code>, <code class="highlighter-rouge">/bin</code>, <code class="highlighter-rouge">/dev</code>, වැනි ඩිරෙක්ටරි වෙන්වන්නෙ මෙහෙයුම් පද්ධතියට හෝ කර්නලයට විශේෂ වන ගොනු සඳහාය.
+මෙහෙයුම් පද්ධතියේ පරිශීලකයන්ගේ ගොනු ඇතුලත් වන්නේ <code class="highlighter-rouge">/home</code> ඩිරෙක්ටරිය තුල අදාල පරිශීලකයාගේ නමින් ඇති ඩිරෙක්ටරියක් තුලය.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code> "/" (root)
+  │
+  ├─ /bin
+  ├─ /boot
+  ├─ /dev
+  ├─ /etc
+  ├─ /usr
+  │    │
+  │    ├─ /bin    
+  │    ├─ /lib
+  │    ├─ /include
+  │    └─ /sbin
+  ├─ /home
+  │    │
+  │    ├─ /alice   
+  │    ├─ /bob
+  ├─ /root
+  ├─ /media
+  .
+  .
+  .
+  └─ /var
+</code></pre>
+</div>
+
+<p>මේ අනුව Linux යනු, UNIX හි කේත මත පදනම් වනවා වෙනුවට UNIX සංකල්ප මත පදනම් වූ කර්නලයකි.</p>
+
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-      <p>නිදහස්. “නොමිලේ දෙන” අදහසින් නොවෙයි. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+      <p>නිදහස්; (“නොමිලේ දෙන” අදහසින් නොවෙයි.) <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:2">
-      <p>විවෘත කේත. ඕනෑම කෙනෙක්ට කේතය අධ්‍යනය කිරීමට අවසර ඇති. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+      <p>විවෘත කේත. ඕනෑම කෙනෙකුට කේතය අධ්‍යනය කිරීමට අවසර ඇති. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:3">
       <p>Richard Stallman ආරම්භ කරපු GNU’s Not UNIX ව්‍යාපෘතිය. මේ ව්‍යාපෘතිය නිදහස් මෘදුකාංග සඳහා අනුග්‍රහය දක්වන ප්‍රධානම ව්‍යාපෘතිය වෙනවා. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
@@ -67,6 +106,9 @@
     </li>
     <li id="fn:5">
       <p><a href="https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Market_share_by_category">https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Market_share_by_category</a> <a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p>වර්තමාන ඩෙස්ක්ටොප් අතුරුමුහුණත් වලදි ඩිරෙක්ටරියක් හඳුන්වන්නෙ folder එකක් ලෙසිනි <a href="#fnref:6" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>
